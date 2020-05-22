@@ -17,7 +17,7 @@ To run this application,
 
 `insert web properties`HTTP POST endpoint structure: `/api/createwebproperty/:accountId/:apiKey`
 
-Sample API POST endpoint: localhost:30000/api/createwebproperty/<accountId>/<apiKey>
+Sample API POST endpoint: `localhost:30000/api/createwebproperty/<accountId>/<apiKey>`
 
 Sample API Request Body: 
 ```json
