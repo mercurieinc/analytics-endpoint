@@ -23,13 +23,10 @@ const analytics = google.analytics({
 module.exports = {
     createWebProperty: async (accountId, apiKey, requestBody) => {
         const res = await analytics.management.webproperties.insert({
-            accountId, //: '162011389',
+            accountId, 
             auth: jwt,
-            key: apiKey, //: 'AIzaSyBbmat8_Gg0GTvR0C0txCGBulv8Pl1YIZc',
-            requestBody // requestBody: {
-            //     name: 'examplepetstore',
-            //     websiteUrl: 'https://examplepetstore.seller.ng'
-            // }
+            key: apiKey, 
+            requestBody 
         });
 
         return res.data;
